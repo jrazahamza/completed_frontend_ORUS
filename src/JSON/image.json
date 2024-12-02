@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Will you be traveling with a companion?",
+      "options": [
+        { "label": "Solo", "img": "Solo", "hoverImg": "SoloHover",  "videoSrc": "hoverPng"},
+        { "label": "Couple", "img": "Couple", "hoverImg": "CoupleHover",  "videoSrc": "CouplePng"},
+        { "label": "Family", "img": "Family", "hoverImg": "FamilyHover",  "videoSrc": "FamilyPng"},
+        { "label": "Friends", "img": "Friends", "hoverImg": "FriendsHover",   "videoSrc": "friendsPng" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Your preferred travel month",
+      "options": [
+        { "label": "January", "img": "Jan", "hoverImg": "JanHover",  "videoSrc": "JanuaryPng" },
+        { "label": "February", "img": "Feb", "hoverImg": "FebHover" ,  "videoSrc": "FeburaryPng"},
+        { "label": "March", "img": "Mar", "hoverImg": "MarHover",  "videoSrc": "MarchPng" },
+        { "label": "April", "img": "April", "hoverImg": "AprilHover",  "videoSrc": "AprilPng" },
+        { "label": "May", "img": "May", "hoverImg": "MayHover",  "videoSrc": "MayPng" },
+        { "label": "June", "img": "June", "hoverImg": "JuneHover",  "videoSrc": "JunePng" },
+        { "label": "July", "img": "July", "hoverImg": "JulyHover",  "videoSrc": "JulyPng" },
+        { "label": "August", "img": "Aug", "hoverImg": "AugustHover",  "videoSrc": "AugustPng" },
+        { "label": "September", "img": "Sept", "hoverImg": "SeptemberHover",  "videoSrc": "SeptemberPng" },
+        { "label": "October", "img": "Oct", "hoverImg": "OctoberHover",  "videoSrc": "October" },
+        { "label": "November", "img": "Nov", "hoverImg": "NovemberHover",  "videoSrc": "NovemberPng" },
+        { "label": "December", "img": "Dec", "hoverImg": "DecemberHover",  "videoSrc": "DecemberPng" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Select the activities you’d like to include.",
+      "options": [
+        { "label": "Winter Activities", "img": "Winter", "hoverImg": "WinterHover",  "videoSrc": "WinterPng"  },
+        { "label": "Food & Entertainment", "img": "Food", "hoverImg": "FoodHover",  "videoSrc": "FoodPng"  },
+        { "label": "Adventure", "img": "Adventure", "hoverImg": "AdventureHover",  "videoSrc": "AdventurePng"  },
+        { "label": "Sports", "img": "Sports", "hoverImg": "SportsHover",  "videoSrc": "SportsPng"  },
+        { "label": "Summer Activities", "img": "Summer", "hoverImg": "SummerHover",  "videoSrc": "SummerPng"  },
+        { "label": "Nightlife", "img": "Night", "hoverImg": "NightHover",  "videoSrc": "NightPng"  },
+        { "label": "Festivals", "img": "Festival", "hoverImg": "FestivalHover",  "videoSrc": "FestivalPng"  }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How would you describe your personality?",
+      "options": [
+        { "label": "Luxury Traveller", "img": "Luxary", "hoverImg": "LuxaryHover",  "videoSrc": "LuxaryPng" },
+        { "label": "Adventure Seeker", "img": "AdventureSeeker", "hoverImg": "AdventureSeekerHover",  "videoSrc": "AdventureSeekerPng" },
+        { "label": "Family Traveller", "img": "FamTraveller", "hoverImg": "FamTravelHover",  "videoSrc": "FamTravelPng" },
+        { "label": "Backpacker", "img": "Back", "hoverImg": "BackHover" ,  "videoSrc": "BackPng"},
+        { "label": "Itinerary Planner", "img": "itinaryplanner", "hoverImg": "ItiinaryHover",  "videoSrc": "ititaryPng" },
+        { "label": "Social Traveller", "img": "Traveller", "hoverImg": "TravellerHover",  "videoSrc": "TravellerPng" },
+        { "label": "Creative Wander", "img": "Wander", "hoverImg": "WanderHover",  "videoSrc": "WanderPng" },
+        { "label": "Culture Explorer", "img": "Culture", "hoverImg": "CultureHover",  "videoSrc": "CulturePng" }
+      ]
+    }
+  ]
+}

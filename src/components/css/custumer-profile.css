@@ -1,0 +1,608 @@
+
+
+:root{
+    --color-4: #FE6326;
+    --color-white: #ffffff;
+    --color-black: #000;
+    --my-gradient:linear-gradient(96.948deg, #FE6326 0%, #DDD507 100%);
+}
+
+
+body,*,p{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body, h1, h2, h3, h4, h5, h6,p, .nav-link, .card-description, .filter-title, input, .dropdown-toggle, .banner-text, label {
+    font-family: Montserrat  !important;
+}
+.customer-name{
+    font-family: Montserrat;
+}
+
+/* header */
+.header {}
+
+.banner-section .navbar-custom .nav-link {
+    margin-right: 6px;
+    font-weight:400;
+    font-size:14px;
+}
+.banner-section .navbar-custom .dropdown-toggle{
+    font-weight:400;
+    font-size:11px;
+}
+
+.banner-section .navbar-custom .btn-custom {
+    font-size: 14px;
+}
+
+.banner-section .navbar-custom .flag-icon img {
+    width: 20px !important;
+    height: 10px !important;
+}
+
+.banner-section .drop-devider svg {
+    width: 6px;
+    height: 12px;
+    margin-top:-4px;
+}
+
+.header .banner-table .nav-tabs {
+    border: unset;
+}
+.header .navbar-custom {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+.header .banner-content {
+    margin: 60px 0px;
+}
+.banner-section .navbar-custom .dropdown-toggle.drop-down-more{
+    font-size:14px;
+}
+.header .banner-table {
+    margin-bottom: 80px;
+}
+.header .banner-section {
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+.header .tabs-divider>div {
+    border-right:1px solid ;
+    text-align:center;
+    font-size:12px;
+}
+.header .tabs-divider>div:nth-child(5) {
+    border-right:unset ;
+}
+.header .tabs-divider>div:nth-child(6) {
+    border-right:unset ;
+}
+/* Custom Styling */
+.navbar-custom {
+    background-color: #00000028;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #FE6326;
+    width: 100%;
+    margin-top: -38px;
+    
+    /* background: linear-gradient(to right, rgba(255, 153, 0, 0.2), rgba(255, 255, 0, 0.2)); */
+}
+.header .navbar-custom .dropdown-toggle {
+    color: #fff;
+}
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #ff9900;
+}
+
+.header .btn-custom {
+    background-color: #6C6C6C;
+    color: #FE6326;
+    border-radius: 5px;
+}
+.header .user-avatar {
+    margin-left: 20px;
+}
+.btn-custom:hover {
+    background-color: #ff4500;
+}
+
+.currency-dropdown {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user-avatar img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+    /* Booking Section Styles */
+    .booking-section {
+    background-color: #00000047;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    border: 1px solid #6D6D6D;
+}
+
+.header .nav-tabs .nav-link.active {
+    background: var(--my-gradient);
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 6px 12px;
+
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.nav-tabs .nav-link i {
+    margin-right: 5px;
+}
+
+.input-label {
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+.banner-headeing {
+    font-size: 105px;
+    color: #ffff;
+    text-align:center;
+    font-weight: 700;
+}
+
+.banner-text {
+    font-size: 20px;
+    color: #ffff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+}
+.date-value,
+.travelers-value,
+.location-value {
+    font-weight: 700;
+    color: white;
+}
+
+.promo-code-link {
+    font-size: 14px;
+    color: #fdaa27;
+    cursor: pointer;
+}
+
+.show-hotels-btn {
+    background: var(--my-gradient);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size:14px;
+}
+.show-hotels-btn:hover {
+    background: var(--my-gradient);
+}
+.banner-table {
+    width: 100%;
+}
+
+/* end of header */
+.profile-container>div:nth-child(1) {
+    margin-right: 20px;
+}
+.profile-container>div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.profile-container .sidebar {
+    padding: 60px 0px;
+}
+
+.profile-container .content {
+    padding: 60px 50px;
+}
+.customer-account-pro-form {
+    margin-top: 48px;
+}
+
+.profile-container .sidebar .svg-icon {
+    margin-right: 12px;
+}
+h2.customer-name{
+    margin-left: 12px;
+}
+.profile-bottom-acc {
+    margin-top: 36px;
+}
+.profile-container {
+display: flex;
+margin-bottom: 100px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    /* padding: 20px; */
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+}
+
+.sidebar a {
+display: block;
+padding: 15px;
+color: #333;
+text-decoration: none;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+.sidebar a.active, .sidebar a:hover {
+background-color: #f97316;
+color: #fff;
+border-radius: unset !important;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4.415584564208984px 17.662338256835938px 0px rgba(17, 34, 17, 5%);
+}
+h2.customer-name {
+    margin-left: 14px !important;
+}
+.customer-account-pro-form .form-control {
+    border: unset;
+    background-color: #F7F7F7;
+}
+.content-header {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.avatar {
+width: 80px;
+height: 80px;
+background-color: #ffb700;
+border-radius: 50%;
+margin-right: 20px;
+}
+
+.content h2 {
+margin: 0;
+}
+
+.form-control {
+background-color: #f8f9fa;
+}
+
+.btn-primary {
+background-color: #f97316;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #f59f0b;
+}
+
+.add-email-btn {
+    background-color: #DDD507;
+    border-radius: 20px;
+    border: unset;
+    color: var(--color-4);
+    padding: 10px 20px;
+}
+
+.edit-email-btn {
+    background-color: #f59f0b;
+    border-radius: 20px;
+    border: unset;
+    color: var(--color-white);
+    padding: 10px 20px;
+}
+
+.email-label {
+color: #ffb700;
+}
+
+@media (max-width: 768px) {
+.profile-container {
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+}
+}
+
+
+/* Security */
+.security-setup>div{
+    margin: 18px 0px;
+}
+.password-reset {
+    border-radius:20px;
+    padding:28px 45px;
+}
+
+
+.reset {
+    border:unset !important;
+    padding: 12px 38px;
+    border-radius: 30px;
+    background:linear-gradient(96.948deg, #FE6326 0%, #DDD507 100%);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*end of  Security */
+
+/* Itinerary */
+
+.Itineraries .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 20px;
+  }
+
+.Itineraries .nav-tabs .nav-link.active {
+    border-color: #ffc107 !important;
+    background-color: transparent;
+  }
+
+.Itineraries .itinerary-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.itinerary-card img {
+width: 100%;
+border-radius: 10px;
+}
+
+.Itineraries .view-details-btn {
+background-color: #ffc107;
+border: none;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.Itineraries  .view-details-btn:hover {
+background-color: #e0a800;
+}
+
+.Itineraries  .itinerary-meta {
+margin-top: 15px;
+}
+
+.Itineraries .meta-item {
+display: inline-block;
+margin-right: 20px;
+color: #888;
+}
+
+.Itineraries .meta-item i {
+margin-right: 5px;
+}
+
+.Itineraries .icon-actions {
+float: right;
+}
+
+.icon-actions i {
+margin-left: 10px;
+cursor: pointer;
+color: #f05a28;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+.view-details-btn {
+    width: 100%;
+    text-align: center;
+}
+}
+
+  /*end of Itinerary */
+
+
+
+  /*booking and details */
+  
+  .nav-tabs .nav-link.active {
+    border-color: #ffc107 !important;
+    background-color: transparent;
+}
+
+.ticket-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #C0C0C0;
+}
+
+.ticket-card img {
+    width: 80px;
+}
+
+.download-btn {
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #e0a800;
+}
+
+.icon-right-arrow {
+    color: #f05a28;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.ticket-info {
+    margin-top: 10px;
+}
+
+.info-item {
+    display: inline-block;
+    margin-right: 20px;
+    color: #888;
+}
+
+.info-item i {
+    margin-right: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .download-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-item {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+  
+.tickets-booking .nav-item button{
+    color:#000 !important;
+}
+
+.tickets-booking .nav-item {
+    width:210px;    
+}
+ 
+.booking-detail .tab-content {
+    margin-top:42px;
+}
+  
+  /*end of booking and details */
+
+
+  /* intinerary */
+  
+     
+/* end of intinerary */
+
+
+
+
+/* footer */
+
+/* Footer styling */
+.footer-section {
+    background-color: #111;
+    padding: 56px 0;
+    color: white;
+  margin-top:-20px;
+}
+.footer-section .logo-section {
+    margin-bottom: 30px;
+}
+.footer-section .logo-section p {
+    max-width: 300px;
+}
+.footer-section .footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer-section .footer-links a {
+    color: #ffffffa3;
+    text-decoration: none;
+}
+.footer-section .footer-links a:hover {
+    color: white;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1B1B;
+}
+.foo-bo-con {
+    text-align: center;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1B1B;
+    color: #fff;
+}
+
+.footer-bottom a {
+    color: #ffffffa3;
+    margin: 0 15px;
+}
+
+.footer-bottom a:hover {
+    color: white;
+}
+.play-ios-icons li {
+    margin-bottom: 13px;
+}
+.foo-bottom-row-con {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.foo-bottom-row-con a{
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:400;
+}
+/* end footer */
